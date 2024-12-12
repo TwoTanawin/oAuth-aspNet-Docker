@@ -1,0 +1,15 @@
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/backend
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/appsettings.Development.json
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/appsettings.json
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/backend.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/backend.deps.json
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/backend.runtimeconfig.json
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/backend.pdb
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/DotNetEnv.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Microsoft.AspNetCore.OpenApi.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Microsoft.OpenApi.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Sprache.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Swashbuckle.AspNetCore.Swagger.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/two-mac/Documents/computing/auth/oAuthGG/backend/Pubblich/Swashbuckle.AspNetCore.SwaggerUI.dll

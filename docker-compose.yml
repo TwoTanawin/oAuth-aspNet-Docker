@@ -1,0 +1,34 @@
+# Define network
+networks:
+  dotnetngnetwork:
+    name: dotnetngnetwork
+    driver: bridge
+
+# Define services
+services:
+  # Dotnet API Backend
+  dotnetapi:
+    image: dotnetapi:1.0
+    container_name: dotnetapi_container
+    build: backend/
+    ports:
+      - "5104:5104"
+    restart: always
+    networks:
+      - dotnetngnetwork
+    environment:
+      - GOOGLE_CLIENT_ID=GOOGLE_CLIENT_ID
+      - GOOGLE_CLIENT_SECRET=GOOGLE_CLIENT_SECRET
+      - ASPNETCORE_URLS=http://+:5104  # Ensure the app binds to all interfaces
+  # Angular Frontend
+  reactapp:
+    image: reactapp:1.0
+    container_name: reactapp_container
+    build: frontend/
+    ports:
+      - "5173:80"
+    depends_on:
+      - dotnetapi
+    restart: always
+    networks:
+      - dotnetngnetwork
